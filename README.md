@@ -29,14 +29,14 @@ GET /currency_converter?amount=0.9&input_currency=GBP&output_currency=EUR HTTP/1
 ```
 
 ## CLI
-CLI interface is provided by `currency_converter.py`. The script comunicates with the API, so running server is needed. Be sure that the port specified in `currency_converter.py` is the same as the `server.py`.
+CLI interface is provided by `currency_converter.py`. The script comunicates with the API, so running server is needed. Be sure that the port specified in `currency_converter.py` is the same as in the `server.py`.
 
 ```
 ./currency_converter.py --amount 0.9 --input_currency GBP --output_currency EUR
 ```
 
 ## Output
-Json output of both API and API is the same.
+Json output of both API and CLI is the same.
 ```
 {
   "input": {
